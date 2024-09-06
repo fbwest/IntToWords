@@ -16,6 +16,7 @@ internal static class Program
     
     private static void ShowMessage(MessageType messageType, string message = "")
     {
+        Console.OutputEncoding = Encoding.UTF8;
         Console.ForegroundColor = ConsoleColor.Magenta;
         
         switch (messageType)
@@ -57,8 +58,6 @@ internal static class Program
     private static void Main(string[] args)
     {
         if (args.Length > 0) _arg = args[0];
-        
-        Console.OutputEncoding = Encoding.UTF8;
         
         // copy data from clipboard
         var clipData = Clipboard.GetDataObject();
