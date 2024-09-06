@@ -38,18 +38,18 @@ internal static class Program
         Console.WriteLine("\n");
         Console.ResetColor();
         
-        if (_arg == "-t")
-        {
-            Console.Write(".");
-            Thread.Sleep(1000);
-            Console.Write(".");
-            Thread.Sleep(1000);
-            Console.Write(".");
-        }
-        else
+        if (_arg == "-m")
         {
             Console.Write("Press any key to exit...");
             Console.ReadLine();
+        }
+        else
+        {
+            Console.Write(".");
+            Thread.Sleep(1000);
+            Console.Write(".");
+            Thread.Sleep(1000);
+            Console.Write(".");
         }
     }
     
@@ -86,7 +86,7 @@ internal static class Program
             
             // show results
             ShowMessage(MessageType.Success,
-                $"{number:N0} = '{intToWords}'\nThe result has been copied to the clipboard (use 'Ctrl + v')");
+                $"Input: {number:N0}\n\nResult: {intToWords}\n\nThe result has been copied to the clipboard (use 'Ctrl + v')");
         }
         else
         {
