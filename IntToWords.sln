@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntToWords", "IntToWords\IntToWords.csproj", "{A69C746F-AD80-4898-B5E1-D6BF64B2C9B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{D9C3903D-20DE-4990-9E2C-A0D7B93B6F3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A69C746F-AD80-4898-B5E1-D6BF64B2C9B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A69C746F-AD80-4898-B5E1-D6BF64B2C9B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A69C746F-AD80-4898-B5E1-D6BF64B2C9B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A69C746F-AD80-4898-B5E1-D6BF64B2C9B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9C3903D-20DE-4990-9E2C-A0D7B93B6F3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9C3903D-20DE-4990-9E2C-A0D7B93B6F3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9C3903D-20DE-4990-9E2C-A0D7B93B6F3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9C3903D-20DE-4990-9E2C-A0D7B93B6F3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
